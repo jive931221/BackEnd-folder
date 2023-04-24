@@ -1,0 +1,30 @@
+.container-fetch {
+    border: .1rem solid #1c1919;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+    max-height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 2rem;
+    gap: 20px;
+    padding: 1rem;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 0 3rem 0;
+}
+
+img {
+    border: 0.2rem solid #1c1919;
+    border-radius: 2rem;
+    background-color: #1c1919;
+    max-width: 3rem;
+    margin-top: 1rem;
+  
+}
+p{
+    padding-top: 1rem;
+}

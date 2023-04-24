@@ -1,0 +1,30 @@
+.container-table {
+    overflow-y: scroll;
+    height: 400px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    border-radius: .8rem;
+
+}
+
+th,
+td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
