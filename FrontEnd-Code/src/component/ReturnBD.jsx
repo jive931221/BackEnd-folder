@@ -7,7 +7,7 @@ function ReturnBD() {
 
 
     (function () {
-        fetch('http://localhost:4000/api/clima')
+        fetch('https://backend-code-production-a17d.up.railway.app/api/Clima')
             .then(resp => resp.json())
             .then(Data => {
                 setWeatherData(Data)

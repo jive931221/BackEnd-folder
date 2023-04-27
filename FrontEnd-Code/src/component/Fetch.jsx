@@ -19,7 +19,7 @@ function Fetch() {
             setWeather(data);
             console.log(data);
 
-            axios.post("http://localhost:4000/api/clima", weatherData)
+            axios.post("https://backend-code-production-a17d.up.railway.app/api/Clima", weatherData)
                 .then((response) => {
                     console.log(response.data);
                 })

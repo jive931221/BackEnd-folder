@@ -1,4 +1,5 @@
 import express from "express";
+import {PORT} from './config.js'
 
 
 import climaRuta from './ruta/clima-ruta.js'
@@ -15,7 +16,12 @@ app.use((req, res, next) => {
 
 app.use('/api',climaRuta)
 
+app.get('/ping', async (req, res) => {
+    const [result] = await pool.query(`SELECT "hello world" as RESULT`);
+    res.json(result[0])
+  })
+  
 
-app.listen(4000)
+app.listen(PORT)
 
-console.log("server runninf on port 4000")
+console.log("server runninf on port 3000")
